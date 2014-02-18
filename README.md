@@ -1,56 +1,55 @@
 # CDL
 
-Web site of de la biblioteca'Casa del Lector'
+It's a Website for the visualization and content navigation based on [d3.js](http://d3js.org/) library and jekyll static websites generator. 
+
+All data it's the The general flow of the process is(import from XML from [The Brain (zipfile)](), parse, sanitize and export to JSON) 
+with the the grunt task runner, previously publish new data information.
+
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 ## Requirements
 
 - [Ruby 1.9+](https://www.ruby-lang.org)
-- [Bundler](http://bundler.io/)
+
+You can check nthe version of ruby with:
+
+	$ ruby -v
+    
+if the ruby version it's less of 1.9, we recommend to update to the lastest version.
+
 - [Node.js](http://nodejs.org)
+- [Bundler](http://bundler.io/)
 
-## Installation
+To install bundler, you could execute this command:
 
-To get started you can, clone the project:
-
-* git@github.com:Gizra/CDL.git
-
-install node and javascript libraries
-
-* npm install; bower install
+	$ gem install bundler
+    
+please check the [bundler site](http://bundler.io/) to performance the update of the ruby enviroment.
 
 - [Yeoman](http://yeoman.io)
 
-$ nm install -g yo
+To install yeoman:
 
-- Download
+	$ npm install -g yo
+    
+## Installation
 
-```
-$terminal
-```
-
-  $npm bower install;
-   $bower install;
-
-
-
-* Read our introduction post to d3.chart [here](http://weblog.bocoup.com/introducing-d3-chart/)
-* Dive right into the [wiki](http://github.com/misoproject/d3.chart/wiki), which is full of instructions and guides.
-* Check out the [Miso Project website](http://misoproject.com/d3-chart) which has some live coding examples
-
-
-
-## Build Instructions
-
-Build requirements:
+To get started you can, clone the project:
+	
+    $ git@github.com:Gizra/CDL.git
 
 To fetch required dependencies, run the following command from the root of
 this repository:
 
-    $ npm install
+	$ npm install; bower install
 
-After this, the project can be built by invoking Grunt from within this
-repository:
+Copy source files (XML and images files from the zip file of the "The Brain Application"
+in the folder brain.
 
-    $ grunt
+and to run the website locally you can use:
+
+	$ grunt serve
 
 ## Credits
+
+* [Gizra](http://www.gizra.com/) 
