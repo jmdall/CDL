@@ -11,20 +11,16 @@ with the the grunt task runner, previously publish new data information.
 
 - [Ruby 1.9+](https://www.ruby-lang.org)
 
-You can check nthe version of ruby with:
+You can check the version of ruby with:
 
 	$ ruby -v
     
 if the ruby version it's less of 1.9, we recommend to update to the lastest version.
 
-- [Node.js](http://nodejs.org)
-- [Bundler](http://bundler.io/)
-
-To install bundler, you could execute this command:
-
-	$ gem install bundler
-    
-please check the [bundler site](http://bundler.io/) to performance the update of the ruby enviroment.
+- Download and install [Node.js](http://nodejs.org)
+- Install [Jekyll](http://jekyllrb.com/) following the instructions in the site.
+- Install [Compass](http://compass-style.org/install/) following the instructions in the site.
+- Install [Bundler](http://bundler.io/) following the instructions in the site
 
 - [Yeoman](http://yeoman.io)
 
